@@ -1,0 +1,284 @@
+@import "/base/_colors"
+@import "/base/_fonts"
+@import "/base/_mixins"
+@import "/base/typography"
+
+
+.klorauka {
+
+/////////////////////////////////////// MOBILE //////////////////////
+
+.mobile {
+
+@media only screen and (min-width: 416px) {
+ display none
+
+}// above 416px
+
+.uk-list {
+
+li {
+ align none !important
+}// li
+
+}// .uk-list
+
+.uk-table {
+
+
+thead {
+ box-shadow 0px 2px 0px 0px gray
+
+tr {
+
+th  {
+ color dark
+ font-size 16px
+ font-weight 600
+ line-height 1.5
+ text-transform none
+
+}// th
+
+}// tr
+
+}// thead
+
+tbody {
+
+tr {
+
+td  {
+
+span.tag {
+ background heida
+
+span {
+
+svg {
+ width 13px
+ margin-right 2px
+ margin-bottom -2px
+}// svg
+
+}// span
+
+}// span.tag
+
+&.ker {
+ background heida
+ color white
+}// &.ker
+
+ul.uk-accordion{
+
+li {
+
+button {
+ background heida !important
+
+::before {
+ color white
+}
+
+}// button
+
+}// li
+
+}// ul.uk-accordion
+
+}// td
+
+}// tr
+
+}// tbody
+
+}// .uk-table
+
+}// .mobile
+///////////////////////////////////////MOBILE ENDS //////////////////
+.uk-table.desktop {
+
+@media only screen and (max-width: 414px) {
+ display none
+
+}// below 414px
+
+thead {
+ box-shadow 0px 2px 0px 0px gray
+
+tr {
+
+th  {
+ color dark
+ font-size 16px
+ font-weight 600
+ line-height 1.5
+ text-transform none
+
+@media only screen and (max-width: 320px) {
+ font-size 11px
+ padding-left 8px
+
+}// below 320px
+
+}// th
+
+}// tr
+
+}// thead
+
+tbody {
+
+tr {
+
+td  {
+
+span.tag {
+ background heida
+
+span {
+
+svg {
+ width 13px
+ margin-right 2px
+ margin-bottom -2px
+}// svg
+
+}// span
+
+}// span.tag
+
+&.ker {
+ background heida
+ color white
+}// &.ker
+
+ul.uk-accordion{
+
+li {
+
+button {
+ background heida !important
+
+::before {
+ color white
+}
+
+}// button
+
+}// li
+
+}// ul.uk-accordion
+
+}// td
+
+}// tr
+
+}// tbody
+
+p {
+ 
+}// p
+
+caption {
+
+&.date {
+ background dark
+ color white
+ font-size 16px
+ font-weight 500
+ padding-top 4px
+ padding-left 10px
+
+
+img {
+ padding 0px
+ margin-bottom 5px
+ border 1px solid dark
+}// img
+
+span.user {
+ color heida
+}// span.user
+
+// icons
+span {
+
+&.cal {
+
+svg {
+ width 14px
+ margin-top -2px !important
+ margin-left 5px
+ margin-right 2px
+}
+
+}// &.cal
+
+&.timi {
+
+svg {
+ width 14px
+ margin-top -3px !important
+ margin-left 5px
+ margin-right 2px
+}
+
+}// &,timi 
+
+}// span
+
+span {
+
+&.date {
+
+}// &.date
+
+&.time {
+ color heida
+}// &.time 
+
+}// span
+
+}// &.date
+
+&.minnismidi {
+ padding-left 8px
+ padding-bottom 3px
+}// /.minnismidi
+
+&.klormagn {
+ background dark
+ padding-top 2px
+ padding-bottom 2px
+ padding-left 10px
+ border 1px solid heida
+
+span {
+ color heida
+
+&.magn {
+
+svg {
+ color white
+ width 15px
+ margin-top -4px
+}// svg
+
+}// &.magn
+
+small {
+ color white
+ padding-left 1px
+}// small
+
+}// span
+
+}// &.klormagn
+
+}// caption
+
+}// .uk-table
+
+}// .klorauka
